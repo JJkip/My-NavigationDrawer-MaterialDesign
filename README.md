@@ -3,7 +3,7 @@ This is a sample app which implements Material Drawer based on [Navigation drawe
 
 I have however improved it to run on as low as API level 8. In my case there were two places that were making the library not to run on API lower than 14. So I made the following changes:
 
-## NavigationLiveoAdapter
+## 1. NavigationLiveoAdapter
 
 On the setAlpha function, I replaced
 ```
@@ -20,7 +20,7 @@ with
 I replaced v.setAlpha() method with ViewHelper.setAlpha() in [NineOldAndroids](http://nineoldandroids.com/)
 
 
-## FragmentMain
+## 2. FragmentMain
 
 On the onCreateOptionsMenu method I replaced 
 
