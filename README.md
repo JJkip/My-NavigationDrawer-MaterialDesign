@@ -38,5 +38,6 @@ with
         SearchView searchView = (SearchView) MenuItemCompat.getActionView(menu.findItem(R.id.menu_search));
         searchView.setQueryHint(this.getString(R.string.search));
 ```
+This hack depends on appcompat android.support.v4.view.MenuItemCompat import as you will see in FragmentMain.java
 
 **For acknowledgement and respect of his work, the license still remain**
