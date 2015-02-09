@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="nLiveoDrawer" parent="nLiveo.Theme.DarkActionBar">
+        <!-- Customize your theme here. -->
+
+    </style>
+
+    <style name="nLiveo.Theme.DarkActionBar" parent="AppTheme.DarkActionBar" />
+
+    <style name="AppTheme.DarkActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/nliveo_cyan_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/nliveo_cyan_alpha_colorPrimaryDark</item>
+        <item name="colorAccent">@color/nliveo_cyan_colorPrimary</item>
+        <item name="colorControlHighlight">@color/nliveo_cyan_colorPrimary</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowActionModeOverlay">true</item>
+
+        <item name="popupTheme">@style/ThemeOverlay.AppCompat.Light</item>
+        <item name="theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+</resources>
